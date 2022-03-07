@@ -1,0 +1,83 @@
+body{background-color:darkgrey}
+
+div{
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    border-radius:130px 10px 130px 10px;
+    margin:150px auto
+}
+
+div form{
+    padding-top:35%
+}
+
+h2{
+    margin-top:-57px;
+    margin-bottom:0;
+    font-size:50px;
+    text-align:center;
+    text-transform:uppercase;
+    color:aqua
+}
+
+div form input{
+    
+    background:0 0;
+    display:block;
+    margin:auto;
+    width:90%;
+    border-radius:15px;
+    border:2px solid red;
+    height:40px;
+    margin-top:15px;
+    padding-left:10px;
+    text-transform:uppercase;
+    font-weight:700
+}
+
+form input[type=text]{
+    
+    background-image:url(/d9e5417d93fdf9e79dfc746031baccf26ff84b3d/user.png);
+    background-size:30px;
+    background-repeat:no-repeat;
+    background-position:97% 40%
+}
+
+form input[type=password]{
+    
+    background-image:url(/d1a9d35c6fef99dd6e9aca343b5bafa118633c9d/pass.png);
+    background-size:25px;
+    background-repeat:no-repeat;
+    background-position:97% 40%
+}
+
+div button{
+    background:0 0;
+    width:50%;
+    margin:25px 0 0 100px;
+    background-color:#c6e2ff;
+    border:2px solid red;
+    border-radius:15px;
+    padding:10px;
+    font-weight:700;
+    font-size:15px
+}
+
+div button:hover{
+    background-color:#ffc3a0
+}
+
+a{
+    display:block;
+    text-align:center;
+    margin-top:20px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:blue
+}
+
+a:hover{
+    
+    color:#fe7b89
+}

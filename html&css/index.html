@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facbook - Log In or Sing UP</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+
+    <div class="container">
+         <div class="left-position">
+           <div class="left-side float-child">
+             <div class="fb-img">
+                  <img src="facbook.svg">
+             </div>
+             <div class="parg-h2">
+                <h2>Connect with friends and the world <br> around you on facebook.</h2>
+             </div>
+           </div>
+
+         </div>
+    </div>
+
+    <div class="right-side float-child">
+      <div class="containte">
+      <div class="login-card">
+          <input type="text" placeholder="Email or phone number">
+          <input type="password" placeholder="password" id="myinput">
+          <span class="eye" onclick="myFunction()">
+            <i id="hide1" class="far fa-eye"></i>
+            <i id="hide2" class="far fa-eye-slash"></i>
+             </span>
+          <button>Log in</button>
+          <div class="forget-link"><a href="#">forgot password?</a></div>
+          <div class="line"></div>
+          <div class="sing-up"><a href="#">Create new account</a></div>
+      </div>
+      <div class="esf">
+      <p  ><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+    </div>
+      </div>
+    </div>
+</div>
+
+<script>
+   
+     function myFunction()
+     {
+       var x = document.getElementById("myinput");
+       var k = document.getElementById("hide1");
+       var s = document.getElementById("hide2");
+
+       if(x.type === 'password')
+       {
+         x.type = "text";
+         k.style.display ="block";
+         s.style.display ="none";
+       }else{
+          x.type = "password";
+          k.style.display = "none";
+          s.style.display = "block";
+       }
+     }
+</script>
+    
+
+</body>
+</html>

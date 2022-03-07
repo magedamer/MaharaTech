@@ -1,0 +1,78 @@
+body{
+    background-color:darkgrey;
+     
+}
+
+.contact{
+    
+    height: 530px;
+    width: 500;
+    background-color:firebrick;
+    overflow:hidden;
+    margin:150px auto;
+    border-radius:130px 10px 130px 10px;
+    
+}
+
+
+.contact .form{
+    
+    width:90%;
+    overflow:hidden;
+    margin-left:15%;
+    
+}
+.contact .my-info{
+    
+    text-align: center;
+    color:aqua;
+}
+
+.contact .form label{
+    
+    display:block;
+    color:#d3d5d6;
+    margin:10px 0;
+}
+
+.contact .form input[type=text]{
+    
+    background:#4b5456;
+    color:#fff;
+    padding:20px;
+    border:0;
+    width:80%;
+    margin-bottom:5px;
+}
+
+.contact .form input[type=password]{
+    
+    background:#4b5456;
+    color:#fff;
+    padding:20px;
+    border:0;
+    width:80%;
+    margin-bottom:5px;
+}
+
+
+.contact .form input[type=submit]{
+    
+    background:#191f21;
+    color:#fff;
+    font-weight:700;
+    border:0;
+    cursor:pointer;
+    padding:20px 40px;
+    border-radius:10px 50px 10px 50px;
+    transition:all .6s
+}
+
+.contact .form input[type=submit]:hover{
+    
+    background:#fff;
+    color:#191f21;
+}
+
+
+

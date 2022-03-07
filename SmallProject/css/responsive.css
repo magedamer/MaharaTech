@@ -1,0 +1,217 @@
+/* ------------------------- Start Media Query -------------------------------------- */
+
+/* X Small & Small Screen */
+@media(min-width: 100px) and (max-width: 991px) {
+    
+    .quote {
+        font-size: 18px;
+    }
+
+    /********* Start Navbar *******/
+    
+    .nav {
+        height: 70px;
+    }
+    
+    .nav .nav-toggle-btn {
+        right: 10px;
+    }
+    
+    .nav h3 {
+        position: absolute;
+        right: 0;
+        font-size: 25px;
+        top: -5px;
+        border: 2px solid #424243;
+        padding: 3px 8px;
+        border-radius: 3px;
+    }
+    
+    .nav .logo {
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .nav .left-nav span {
+        font-size: 40px;
+    }
+    
+    .nav .left-nav {
+        left: 2%;
+        top: 11px;
+        font-size: 13px;
+    }
+    
+    .nav .left-nav a {
+        padding-right: 6px;
+    }
+    
+    .nav .menu ul {
+        text-align: center;
+    }
+    
+    .nav .menu ul li a {
+        font-size: 17px;
+    }
+    
+    .nav .menu input[type="search"] {
+            width: 170px;
+            font-size: 15px;
+    }
+    
+    /********* Start Header *******/
+    
+    .header .info {
+        padding-top: calc( (100vh /2) - 90px );
+    }
+    
+    .header .info h1 {
+        font-size: 40px;
+    }
+    
+    .header .info p {
+        margin: auto 10%;
+        font-size: 12px;
+    }
+    
+    .header .info a {
+        margin-top: 30px;
+        font-size: 13px;
+        padding: 8px 18px;
+    }
+    
+    .header .col-xs-12 {
+        margin-top: 35px;
+    }
+    
+    .header a i {
+        left: 46vw;
+    }
+    
+    .header a i.one {
+        bottom: 32px;
+    }
+    
+    .header a i.two {
+        bottom: 20px;
+    }
+    
+    .header a i.three {
+        bottom: 9px;
+    }
+    
+    
+    /********* Start Contact *******/
+    
+    .contact .title img {
+        width: 133px;
+        margin-bottom: 40px;
+    }
+    
+    .contact form {
+        margin: 0 15px
+    }
+    
+    .contact input[type="text"], .contact input[type="email"] {
+        width: 100%;
+        margin: 30px 0 0px;
+    }
+    
+    .contact .message input[type="text"], .contact .message textarea {
+        width: 100%;
+        margin: 30px 0 0px;
+    }
+    
+    .contact .message input[type="submit"] {
+        width: 100%;
+        font-size: 17px;
+        margin: 40px 0 0;
+    }
+    
+    .contact form .fa-user {
+        top: 40px;
+        left: 13px;
+    }
+
+    .contact form .fa-envelope {
+        left: 13px;
+        top: 21.8%;
+        font-size: 16px;
+    }
+
+    .contact form .fa-pencil-square-o {
+        top: 35.7%;
+        left: 13px;
+    }
+
+    .contact form .fa-comment {
+        top: 48.7%;
+        left: 13px;
+    }
+    
+    /********* Start Footer *******/
+    
+    footer {
+        text-align: center;
+    }
+    
+    footer h2 {
+        margin: 20px;
+    }
+    
+    footer p {
+        padding-bottom: 30px;
+        margin-left: 20px;
+        font-size: 17px;
+    }
+
+   footer .social-media {
+       padding-bottom: 30px;
+  }
+    
+    footer .social-media a {
+        padding: 21px;
+    }
+    
+    footer h3 {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    footer ul li {
+        padding: 6px 0;
+    }
+    
+    footer ul li a {
+        font-size: 17px;
+    }
+    
+    footer .conta li {
+        font-size: 17px;
+    }
+    
+    .copyright {
+        padding: 30px 0;
+        font-size: 10px;
+    }
+    
+}
+
+/* Medium Screen */
+@media(min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Larg Screen */
+@media(min-width: 1200px) {
+    
+}
+/* ------------------------- End Media Query ---------------------------------------- */			
